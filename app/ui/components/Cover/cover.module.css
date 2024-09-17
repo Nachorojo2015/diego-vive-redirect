@@ -1,0 +1,175 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--text);
+    color: #fff;
+    padding: 15vh 15vw 10vh 15vw;
+    justify-content: center;
+    position: relative;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background-color: var(--text);
+}
+
+.titles {
+    line-height: 5vh;
+}
+
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 15vw;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.bannerText {
+    font-size: var(--title);
+    letter-spacing: var(--letterSpacing2);
+    font-weight: 400;
+    color: var(--bg);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: var(--title);
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.done {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.country {
+    background-color: var(--cutColor);
+    font-size: var(--title2);
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: .5vh 0;
+    letter-spacing: var(--letterSpacing);
+    text-decoration: none;
+    color: var(--bg);
+}
+
+.comingSoon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.soon {
+    background-color: #0045b9;
+}
+
+
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .bannerText {
+        font-size: var(--titleMobile);
+        letter-spacing: var(--letterSpacing);
+        color: var(--bg);
+    }
+    
+    .subtitle {
+        font-size: var(--titleMobile);
+    }
+
+    .country {
+        font-size: var(--title2Mobile);
+        width: 30vw;
+    }
+
+    .titles {
+        line-height: 3.5vh;
+    }
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
+}
